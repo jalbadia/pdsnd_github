@@ -218,11 +218,11 @@ def raw_data(df):
 
 
         # creating iterator to display 5 lines of raw data
-        n=4
+        n=5
         while True:
             raw=input("Would you like to see raw data? y or n \n").lower()
             if raw =="y":
-                for i in range(0,n,1):
+                for i in range(0,n-1,1):
                     print(df.iloc[i])
                     n +=5
             elif raw=="n":
