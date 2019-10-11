@@ -25,7 +25,7 @@ def get_filters():
             else:
                 break
         except Exception as e:
-            print()
+            print(e)
             continue
 
 
@@ -42,7 +42,7 @@ def get_filters():
                 break
 
         except Exception as e:
-            print()
+            print(e)
             continue
 
 
@@ -55,7 +55,7 @@ def get_filters():
             else:
                 break
         except Exception as e:
-            print()
+            print(e)
             continue
 
 
