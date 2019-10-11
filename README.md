@@ -5,7 +5,7 @@
 bikeshare
 
 ### Description
-Describe what your project is about and what it does
+this project about a bike rental shop statistics
 
 ### Files used
 Include the files used
